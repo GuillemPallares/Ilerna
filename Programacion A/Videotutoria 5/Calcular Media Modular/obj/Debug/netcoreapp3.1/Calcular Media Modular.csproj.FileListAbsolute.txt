@@ -1,0 +1,13 @@
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\bin\Debug\netcoreapp3.1\Calcular Media Modular.exe
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\bin\Debug\netcoreapp3.1\Calcular Media Modular.deps.json
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\bin\Debug\netcoreapp3.1\Calcular Media Modular.runtimeconfig.json
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\bin\Debug\netcoreapp3.1\Calcular Media Modular.runtimeconfig.dev.json
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\bin\Debug\netcoreapp3.1\Calcular Media Modular.dll
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\bin\Debug\netcoreapp3.1\Calcular Media Modular.pdb
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\obj\Debug\netcoreapp3.1\Calcular Media Modular.csprojAssemblyReference.cache
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\obj\Debug\netcoreapp3.1\Calcular Media Modular.AssemblyInfoInputs.cache
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\obj\Debug\netcoreapp3.1\Calcular Media Modular.AssemblyInfo.cs
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\obj\Debug\netcoreapp3.1\Calcular Media Modular.csproj.CoreCompileInputs.cache
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\obj\Debug\netcoreapp3.1\Calcular Media Modular.dll
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\obj\Debug\netcoreapp3.1\Calcular Media Modular.pdb
+C:\Users\guill\OneDrive\Escritorio\Ilerna\Sistemas informaticos\Videotutoria 5\Calcular Media Modular\obj\Debug\netcoreapp3.1\Calcular Media Modular.genruntimeconfig.cache
