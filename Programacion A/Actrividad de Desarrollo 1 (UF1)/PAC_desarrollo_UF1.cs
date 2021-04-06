@@ -8,14 +8,15 @@ namespace Actividad_de_Desarrollo_1_UF1
         {
             int filasA, filasB, columnasA, columnasB;
 
-            //Utilizaremos esta variable para el control de loops while.
+            // Utilizaremos esta variable para el control de loops while.
             int l = 0;
 
             int[,] matrizA, matrizB;
 
             Console.Title = "Actividad_de_Desarrollo_1_UF1";
-
-            Console.Clear();
+            
+            // Descomentar para utilizar limpiar la pantalla en cada fase.
+            // Console.Clear();
 
         #region 1. Se deberá pedir el número de filas y de columnas que deberá tener la primera matriz.
 
@@ -23,14 +24,14 @@ namespace Actividad_de_Desarrollo_1_UF1
             
             Console.WriteLine("Introduzca el número de FILAS deseado:"); 
 
-            //Reseteamos la variable de control para iniciar el loop.
+            // Reseteamos la variable de control para iniciar el loop.
             l = 0;
 
             do
             {
                 if(l > 0){
                     Console.WriteLine("*El valor de FILAS ha de ser un Número ENTERO POSITIVO"); 
-                    //Creamos un número máximo de intentos para evitar bucles infinitos.
+                    // Creamos un número máximo de intentos para evitar bucles infinitos.
                     if (l > 5){
                         Console.WriteLine("Número de intentos superado"); 
 
@@ -49,14 +50,14 @@ namespace Actividad_de_Desarrollo_1_UF1
 
             Console.WriteLine("Introduzca el número de COLUMNAS deseado:");
 
-            //Reseteamos la variable de control para iniciar el loop.
+            // Reseteamos la variable de control para iniciar el loop.
             l = 0;
 
             do
             {
                 if(l > 0){
                     Console.WriteLine("*El valor de COLUMNAS ha de ser un Número ENTERO POSITIVO"); 
-                    //Creamos un número máximo de intentos para evitar bucles infinitos.
+                    // Creamos un número máximo de intentos para evitar bucles infinitos.
                     if (l > 5){
                         Console.WriteLine("Número de intentos superado"); 
 
@@ -82,14 +83,14 @@ namespace Actividad_de_Desarrollo_1_UF1
 
             Console.WriteLine("Introduzca el número de FILAS deseado:"); 
 
-            //Reseteamos la variable de control para iniciar el loop.
+            // Reseteamos la variable de control para iniciar el loop.
             l = 0;
 
             do
             {
                 if(l > 0){
                     Console.WriteLine("*El valor de FILAS ha de ser un Número ENTERO POSITIVO"); 
-                    //Creamos un número máximo de intentos para evitar bucles infinitos.
+                    // Creamos un número máximo de intentos para evitar bucles infinitos.
                     if (l > 5){
                         Console.WriteLine("Número de intentos superado"); 
 
@@ -108,14 +109,14 @@ namespace Actividad_de_Desarrollo_1_UF1
 
             Console.WriteLine("Introduzca el número de COLUMNAS deseado:");
 
-            //Reseteamos la variable de control para iniciar el loop.
+            // Reseteamos la variable de control para iniciar el loop.
             l = 0;
 
             do
             {
                 if(l > 0){
                     Console.WriteLine("*El valor de COLUMNAS ha de ser un Número ENTERO POSITIVO"); 
-                    //Creamos un número máximo de intentos para evitar bucles infinitos.
+                    // Creamos un número máximo de intentos para evitar bucles infinitos.
                     if (l > 5){
                         Console.WriteLine("Número de intentos superado"); 
 
@@ -144,10 +145,12 @@ namespace Actividad_de_Desarrollo_1_UF1
             {
                 for (int j = 1; j <= columnasA; j++)
                 {
-                    Console.Clear();
+                    //  Descomentar para utilizar limpiar la pantalla en cada vez que se muestra una nueva matrix.
+                    // Console.Clear();
                     Console.WriteLine("\nPrimera Matriz [{0}, {1}]", filasA, columnasA);
 
-                    for (int ii = 0; ii < filasA; ii++)
+                    // Descomentar para mostrar el dibujo de la matriz en tiempo real. 
+                    /* for (int ii = 0; ii < filasA; ii++)
                     {
                     Console.Write("|");
                         for (int jj = 0; jj < columnasA; jj++)
@@ -160,9 +163,11 @@ namespace Actividad_de_Desarrollo_1_UF1
                             }
                         }
                     Console.WriteLine("|");
-                    }
+                    } */
 
                     Console.WriteLine("Introduzca el VALOR Correspondiente a la posicion a({0},{1})", i,j);
+
+                    // Restamos 1 al indice de columna y fila para que vuela a indexación-base(0). 
                     matrizA[i-1,j-1] = Convert.ToInt32(Console.ReadLine());
                 }
             }
@@ -179,11 +184,13 @@ namespace Actividad_de_Desarrollo_1_UF1
             {
                 for (int j = 1; j <= columnasB; j++)
                 {
-                    Console.Clear();
+                    // Descomentar para utilizar limpiar la pantalla en cada vez que se muestra una nueva matrix.
+                    // Console.Clear();
                     Console.WriteLine("\nSegunda Matriz [{0}, {1}]", filasB, columnasB);
                     
-                    for (int ii = 0; ii < filasB; ii++)
-                        {
+                    // Descomentar para mostrar el dibujo de la matriz en tiempo real. 
+                    /* for (int ii = 0; ii < filasB; ii++)
+                    {
                         Console.Write("|");
                             for (int jj = 0; jj < columnasB; jj++)
                             {
@@ -195,15 +202,17 @@ namespace Actividad_de_Desarrollo_1_UF1
                                 }
                             }
                         Console.WriteLine("|");
-                        }
+                    } */
                     Console.WriteLine("Introduzca el VALOR Correspondiente a la posicion a({0},{1})", i,j);
+                    // Restamos 1 al indice de columna y fila para que vuela a indexación-base(0).
                     matrizB[i-1,j-1] = Convert.ToInt32(Console.ReadLine());
                     
                 }
             }
         #endregion
 
-            Console.Clear();
+// Descomentar para utilizar limpiar la pantalla en cada fase.
+        //Console.Clear();
 
         #region 5. Se mostrará por pantalla el contenido de la primera matriz.
 
